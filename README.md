@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
+Here's what it looks like:
+
+![Output sample](https://github.com/tayfunclk/forsquareCategory/blob/master/gif2.gif)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
