@@ -1,0 +1,24 @@
+<p>category works!</p>
+
+
+<div class="sidenav">
+    <a>About</a>  
+    <div class="dropdown-container"  *ngFor = "let group of this.venue;let i = index">
+      <a href="#"> {{group.name}}</a> 
+      <a *ngIf="group.categories">
+        <ul *ngFor = "let item of group.categories ;let n = index">
+          <li (click)="getSelectedCategory(item.name)">{{item.name}}</li>
+        </ul>
+       
+      </a>
+    </div> 
+  </div>
+
+ 
+  
+  <div class="main">
+    <h2>Sidebar Dropdown</h2>
+    <p>Click on the dropdown button to open the dropdown menu inside the side navigation.</p>
+    <p>This sidebar is of full height (100%) and always shown.</p>
+    <p>Some random text..</p>
+  </div>
